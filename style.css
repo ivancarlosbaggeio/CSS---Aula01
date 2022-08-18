@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+body{
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0099cc;
+
+}
+header{
+
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    float: left;
+    border-bottom: 4px solid rgb(209, 5, 5);
+
+}
+header p{
+    width: 150px;
+    height:70px;
+    margin-top: 10px;
+    padding-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: #ccc;
+    background-color: #0099cc;
+    border-radius: 200px;
+    box-shadow: 2px 2px 5px #999;
+    float: left;
+    opacity: 0.5;
+    font-family: "audiowide";
+}
+header p:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 2s linear;
+    transform: rotate(180deg);
+    
+}
+.direita{
+    width: 150px;
+    height:70px;
+    margin-top: 10px;
+    padding-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: #ccc;
+    background-color: #0099cc;
+    border-radius: 200px;
+    box-shadow: 2px 2px 5px #999;
+    float: right;
+}
+nav{
+
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    float: left;
+
+}
+.banner{
+
+    width: 100%;
+    height: 300px;
+    background-color: coral;
+    float: left;  
+
+}
+.banner img{
+
+    width: 50%;
+    /*height: 300px;*/
+    position:  absolute;
+    left: 25%;
+
+}
+.content{
+
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    float: left;
+    background-image: url(https://sociedadedospsicologos.files.wordpress.com/2021/06/natureza.jpg);
+    background-position: center;
+    background-size: 800px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.content h1{
+    width: 50%;
+    /*border-bottom: 1px solid #000;*/
+    border-left:3px solid #0099cc;
+    background-color: #045671;
+
+}
+
+.contentSec{
+
+    width: 50%;
+    height: 200px;
+    background-color: darkcyan;
+    float: left;
+    border-radius: 100px;
+
+}
+
+.contentSec2{
+
+    width: 50%;
+    height: 200px;
+    background-color: #123456;
+    float: left;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    float: left;
+
+}
